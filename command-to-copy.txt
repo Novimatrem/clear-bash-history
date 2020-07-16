@@ -1,0 +1,1 @@
+alias cbh="echo 'Fully clearing bash history, then exiting...' && sleep 1s && cat /dev/null > ~/.bash_history && history -c && history -w && exit"
