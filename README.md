@@ -10,7 +10,7 @@ Append a line in your ``.bashrc``;
 
 ```nano /home/$(whoami)/.bashrc```
 
-```alias cbh="echo 'Fully clearing bash history, then exiting...' && sleep 1s && cat /dev/null > ~/.bash_history && history -c && history -w && exit"```
+```alias cbh="echo 'Fully clearing bash history, then exiting...' && cat /dev/null > ~/.bash_history && history -c && history -w && exit"```
 
 (see command-to-copy.txt if the text-formatting makes it hard to copy from here)
 
