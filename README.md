@@ -12,7 +12,7 @@ Append a line in your ``.bashrc``;
 
 ```alias cbh="echo 'Fully clearing bash history, then exiting...' && cat /dev/null > ~/.bash_history && history -c && history -w && exit"```
 
-(see command-to-copy.txt if the text-formatting makes it hard to copy from here)
+(see aliasCmd.sh if the text-formatting makes it hard to copy from here)
 
 After that, close and re-open all of your Terminal emulators to enable the command to work inside of them.
 
