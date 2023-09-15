@@ -19,6 +19,8 @@ After that, close and re-open all of your Terminal emulators to enable the comma
 # Setup (Haiku)
 Append a line in your ``bashrc``;
 
+```touch ~/config/settings/bashrc```
+
 ```nano ~/config/settings/bashrc```
 
 ```alias cbh="echo 'Fully clearing bash history, then exiting...' && cat /dev/null > ~/.bash_history && history -c && history -w && exit"```
