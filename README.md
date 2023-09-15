@@ -17,11 +17,11 @@ Append a line in your ``.bashrc``;
 After that, close and re-open all of your Terminal emulators to enable the command to work inside of them.
 
 # Setup (Haiku)
-Append a line in your ``bashrc``;
+Append a line in your ``profile``;
 
-```touch ~/config/settings/bashrc```
+```touch ~/config/settings/profile```
 
-```/boot/system/apps/Pe/Pe ~/config/settings/bashrc```
+```/boot/system/apps/Pe/Pe ~/config/settings/profile```
 
 ```alias cbh="echo 'Fully clearing bash history, then exiting...' && cat /dev/null > ~/.bash_history && history -c && history -w && exit"```
 
