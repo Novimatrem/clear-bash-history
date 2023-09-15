@@ -1,8 +1,6 @@
 # clear-bash-history
 clear-bash-history - easily clear all bash command history (up arrow keys), for privacy.
 
-[![Platform: GNU/Linux](https://img.shields.io/badge/platform-GNU/Linux-blue.svg)](www.kernel.org/linux.html)
-
 REQUIRES and DEPENDS UPON ``bash``- be sure to have it installed.
 
 # Setup (Linux)
